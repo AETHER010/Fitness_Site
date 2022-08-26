@@ -9,6 +9,7 @@
   flex-wrap: wrap;
   gap: 8rem;
   background-color: #000;
+  padding: 5rem 9%;
 }
 
 .about .image {
