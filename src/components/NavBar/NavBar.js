@@ -22,59 +22,22 @@ export default function NavBar() {
             <a href="#about">About Us </a>
           </li>
           <li className="nav-items">
-            <a href="#home">Features </a>
+            <a href="#features">Features </a>
           </li>
           <li className="nav-items">
-            <a href="#home">Pricing </a>
+            <a href="#pricing">Pricing </a>
           </li>
           <li className="nav-items">
-            <a href="#home">trainers </a>
+            <a href="#trainers">trainers </a>
           </li>
           <li className="nav-items">
-            <a href="#home">Blogs </a>
+            <a href="#blogs">Blogs </a>
           </li>
         </ul>
         <button className="mobile-menu-icon" onClick={() => setNav(!nav)}>
           {nav ? <AiOutlineClose /> : <AiOutlineMenu />}
         </button>
       </nav>
-      {/* <div className="header">
-        <a href="#" className="logo">
-          {" "}
-          <span>HB</span>FITNESS{" "}
-        </a>
-
-        <nav className="navbar">
-          <ul className={nav ? "nav-links-mobile" : "nav-links"}>
-            <a href="#home" className="nav-items">
-              home
-            </a>
-            <a href="#about" className="nav-items">
-              about
-            </a>
-            <a href="#features" className="nav-items">
-              features
-            </a>
-            <a href="#pricing" className="nav-items">
-              pricing
-            </a>
-            <a href="#trainers" className="nav-items">
-              trainers
-            </a>
-            <a href="#blogs" className="nav-items">
-              blogs
-            </a>
-          </ul>
-        </nav>
-
-        <div className="mobile-menu-icon">
-          {nav ? (
-            <AiOutlineMenu/>
-          ) : (
-            <AiOutlineClose />
-          )}
-        </div>
-      </div> */}
     </React.Fragment>
   );
 }

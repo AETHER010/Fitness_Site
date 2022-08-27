@@ -38,6 +38,10 @@
   cursor: pointer;
 }
 
+.navbar .nav-items a:hover {
+  color: rgb(248, 0, 0) 00;
+}
+
 .nav-items a {
   color: rgb(253, 253, 253);
 }
